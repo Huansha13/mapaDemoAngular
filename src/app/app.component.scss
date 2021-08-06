@@ -1,0 +1,13 @@
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+.marker .mapboxgl-marker .mapboxgl-marker-anchor-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  opacity: 1;
+  transition: opacity .2s;
+  background: aquamarine;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
